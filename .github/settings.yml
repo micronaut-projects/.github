@@ -200,6 +200,3 @@ labels:
   - color: fbca04
     description: Introduces a breaking change
     name: 'type: breaking'
-  - color: 817ae2
-    description: Test label
-    name: 'settings: test'
