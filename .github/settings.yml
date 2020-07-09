@@ -3,8 +3,17 @@
 repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
 
-  # Updates the default branch for this repository.
-  default_branch: master
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent
+  # squash-merging.
+  allow_squash_merge: true
+
+  # Either `true` to allow merging pull requests with a merge commit, or `false`
+  # to prevent merging pull requests with merge commits.
+  allow_merge_commit: false
+
+  # Either `true` to allow rebase-merging pull requests, or `false` to prevent
+  # rebase-merging.
+  allow_rebase_merge: false
   
 # Labels: define labels for Issues and Pull Requests
 labels:
